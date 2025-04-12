@@ -5,7 +5,7 @@ const engineers = [
   {
     name: "Claudio Canales",
     role: "Founder & Lead Engineer",
-    image: "/images/klaudioz.jpg",
+    image: "/images/Klaudioz.jpg",
     twitter: "https://twitter.com/klaudioz",
     linkedin: "https://www.linkedin.com/in/canalesclaudio/",
     website: "https://claud.dev",
