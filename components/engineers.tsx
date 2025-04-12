@@ -5,7 +5,7 @@ const engineers = [
   {
     name: "Claudio Canales",
     role: "Founder & Lead Engineer",
-    image: "/images/claudio.jpg",
+    image: "/images/klaudioz.jpg",
     twitter: "https://twitter.com/klaudioz",
     linkedin: "https://www.linkedin.com/in/canalesclaudio/",
     website: "https://claud.dev",
@@ -14,7 +14,7 @@ const engineers = [
   {
     name: "Fawzi Chibah",
     role: "Senior Engineer",
-    image: "/images/john.jpg",
+    image: "/images/fawzi.jpg",
     twitter: "https://x.com/FawziChibah",
     linkedin: "https://www.linkedin.com/in/fawzi-chibah/",
     website: "https://johndoe.com",
