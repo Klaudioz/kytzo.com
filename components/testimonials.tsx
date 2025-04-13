@@ -17,7 +17,7 @@ const testimonials = [
     name: "Sampei Omichi",
     company: "CEO Ellis",
     content:
-      "WIP",
+      "Claudio (Kytzo's founder) has been an exceptional extension of our engineering team. His work on our complicated scraper project demonstrated his technical expertise, but what truly sets him apart is his proactive communication about deadlines and expectations. We never had to wonder about project status - he kept us informed every step of the way. Claudio's self-starting approach meant minimal oversight was needed; he took ownership of the work and consistently delivered quality results. This reliability has led us to engage him for several projects, and each time he has exceeded our expectations. I highly recommend Claudio for any organization seeking a skilled, communicative, and independently-motivated software engineering contractor.",
   },
   {
     img: TestimonialImg02,
