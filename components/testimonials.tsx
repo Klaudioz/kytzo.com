@@ -9,6 +9,7 @@ import TestimonialImg03 from "@/public/images/testimonial-03.jpg";
 import ClientImg01 from "@/public/images/client-logo-01.svg";
 import ClientImg02 from "@/public/images/client-logo-02.svg";
 import ClientImg03 from "@/public/images/client-logo-03.svg";
+import Link from "next/link";
 
 const testimonials = [
   {
@@ -16,6 +17,7 @@ const testimonials = [
     clientImg: ClientImg01,
     name: "Sampei Omichi",
     company: "CEO Ellis",
+    website: "https://www.ellis.com",
     content:
       "Claudio has been an exceptional extension of our engineering team. His work on our complicated scraper project demonstrated his technical expertise, but what truly sets him apart is his proactive communication about deadlines and expectations. We never had to wonder about project status - he kept us informed every step of the way. Claudio's self-starting approach meant minimal oversight was needed; he took ownership of the work and consistently delivered quality results. This reliability has led us to engage him for several projects, and each time he has exceeded our expectations. I highly recommend Claudio for any organization seeking a skilled, communicative, and independently-motivated software engineering contractor.",
   },
@@ -24,6 +26,7 @@ const testimonials = [
     clientImg: ClientImg02,
     name: "Horacio Lopez",
     company: "Business Operations at Replit",
+    website: "https://replit.com",
     content:
       "Claudio was the world top-earning developer on the Bounties platform which is a testament for how dependable, thorough, and technical he is as a developer.",
   },
@@ -32,6 +35,7 @@ const testimonials = [
     clientImg: ClientImg03,
     name: "Darius Cepokas",
     company: "CEO",
+    website: "https://example.com",
     content:
       "The team was agile and proactive in solving our issues, developing a product with impressive speed from idea to creation. We started with design & analysis stage and then went into development, while now they're taking care of our support for our growing user base. I recommend them for their speed of implementation.",
   },
@@ -66,7 +70,16 @@ export default function Testimonials() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-200">{testimonial.name}</div>
-                  <div className="text-sm text-indigo-200/65">{testimonial.company}</div>
+                  <div className="text-sm text-indigo-200/65">
+                    <Link 
+                      href={testimonial.website} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-indigo-300 hover:text-indigo-100 hover:underline transition-colors cursor-pointer"
+                    >
+                      {testimonial.company}
+                    </Link>
+                  </div>
                 </div>
               </div>
               <blockquote className="text-indigo-200/65">
