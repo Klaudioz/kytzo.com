@@ -33,11 +33,11 @@ const testimonials = [
   {
     img: TestimonialImg03,
     clientImg: ClientImg03,
-    name: "Darius Cepokas",
-    company: "CEO",
-    website: "https://example.com",
+    name: "Cassie Pitkin",
+    company: "Senior Instructor Manager at GA",
+    website: "https://generalassemb.ly/",
     content:
-      "The team was agile and proactive in solving our issues, developing a product with impressive speed from idea to creation. We started with design & analysis stage and then went into development, while now they're taking care of our support for our growing user base. I recommend them for their speed of implementation.",
+      "You know how when Bugs Bunny plays baseball, he plays all of the positions at once? 'First base, Bugs! Left field, Bugs!' That's Claudio in EVERY delivery he's in. Whether it's troubleshooting extremely detailed broken code, working within a very intricate virtual machine or just knowing things about content that no one else knows, Claudio is everywhere! He's efficient, detail-oriented and the ultimate team player. GA is extremely lucky to have him.",
   },
 ];
 
