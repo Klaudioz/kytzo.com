@@ -14,10 +14,10 @@ const engineers = [
   {
     name: "Fawzi Chibah",
     role: "Senior Engineer",
-    image: "/images/fawzi.jpg",
+    image: "/images/fawzi3.jpg",
     twitter: "https://x.com/FawziChibah",
     linkedin: "https://www.linkedin.com/in/fawzi-chibah/",
-    website: "https://johndoe.com",
+    website: "https://www.fawzichibah.ovh/",
     description: "A skilled software engineer with expertise in full-stack development and system architecture. Fawzi brings extensive experience in building scalable applications and implementing efficient solutions. His technical proficiency and problem-solving abilities make him a valuable asset to the Kytzo team."
   }
 ];
