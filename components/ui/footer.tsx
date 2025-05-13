@@ -74,6 +74,14 @@ export default function Footer() {
               <li>
                 <Link
                   className="text-indigo-200/65 transition hover:text-indigo-500"
+                  href="/pitch-deck"
+                >
+                  Pitch Deck
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="/#testimonials"
                 >
                   Testimonials
